@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/claseobjetos" />
             <option value="$PROJECT_DIR$/conceptosandroid" />
+            <option value="$PROJECT_DIR$/projectviews" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
