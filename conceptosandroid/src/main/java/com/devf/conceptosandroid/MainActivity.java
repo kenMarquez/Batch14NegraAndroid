@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Ejercicio:
      * Al estar en modo landscape , imprimir la suma de los primeros 100 números
-     * ,cambiar los colores  de mi app y cambiar el texto que esta en el centro y todo
+     * ,cambiar los colores  de mi app y cambiar el texto que esta en el centro y todos
      * desde el metodo onResume del ciclo de vida de mi actividad.
      */
     @Override

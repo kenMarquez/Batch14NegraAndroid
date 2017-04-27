@@ -11,7 +11,11 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/claseobjetos" />
             <option value="$PROJECT_DIR$/conceptosandroid" />
+            <option value="$PROJECT_DIR$/fragments" />
+            <option value="$PROJECT_DIR$/intents" />
+            <option value="$PROJECT_DIR$/pesostodolares" />
             <option value="$PROJECT_DIR$/projectviews" />
+            <option value="$PROJECT_DIR$/runtimepermission" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
