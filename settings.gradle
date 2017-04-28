@@ -1,1 +1,1 @@
-include ':app', ':claseobjetos', ':conceptosandroid', ':projectviews', ':pesostodolares', ':intents', ':runtimepermission', ':fragments'
+include ':app', ':claseobjetos', ':conceptosandroid', ':projectviews', ':pesostodolares', ':intents', ':runtimepermission', ':fragments', ':quizapp'

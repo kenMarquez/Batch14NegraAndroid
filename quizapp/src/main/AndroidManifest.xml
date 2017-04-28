@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.devf.fragments">
+    package="com.devf.quizapp">
 
     <application
         android:allowBackup="true"
@@ -8,25 +8,17 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".clase1.MainActivity" />
-        <activity android:name=".clase2.MainClase2"></activity>
+        android:theme="@style/AppThemeCustom">
         <activity
-            android:name=".clase2.MainClase3"
-            android:label="@string/title_activity_main_clase3"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".ejercicio.Main2Activity">
-
-        </activity>
-        <activity android:name=".ejercicio_otravez.Main3Activity">
-
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
+        <activity android:name=".PlayActivity"></activity>
     </application>
 
 </manifest>

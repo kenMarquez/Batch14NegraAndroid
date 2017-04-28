@@ -1,3 +1,4 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="contador_tv_count_size">25sp</dimen>
 </resources>

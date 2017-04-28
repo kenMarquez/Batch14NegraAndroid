@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/intents/intents.iml" filepath="$PROJECT_DIR$/intents/intents.iml" />
       <module fileurl="file://$PROJECT_DIR$/pesostodolares/pesostodolares.iml" filepath="$PROJECT_DIR$/pesostodolares/pesostodolares.iml" />
       <module fileurl="file://$PROJECT_DIR$/projectviews/projectviews.iml" filepath="$PROJECT_DIR$/projectviews/projectviews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quizapp/quizapp.iml" filepath="$PROJECT_DIR$/quizapp/quizapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/runtimepermission/runtimepermission.iml" filepath="$PROJECT_DIR$/runtimepermission/runtimepermission.iml" />
     </modules>
   </component>
