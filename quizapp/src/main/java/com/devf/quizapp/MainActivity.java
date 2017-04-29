@@ -33,6 +33,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onStart();
         // le asignamos un escuchador que se mandara a llamara cuando le demos click al boton
         floatingActionButton.setOnClickListener(this);
+
+        String x = "";
+
+        if (x.isEmpty()) {
+
+        }
     }
 
 
@@ -47,6 +53,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         } else {
             Intent intent = new Intent(MainActivity.this, PlayActivity.class);
+            intent.putExtra(Constants.INTENT_KEY_USERNAME, userName);
             startActivity(intent);
         }
 

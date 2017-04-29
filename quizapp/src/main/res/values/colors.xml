@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#689F38</color>
     <color name="colorAccent">#FF5722</color>
     <color name="et_background_color">#55ffffff</color>
+
+    <color name="btn_unselected">#BDBDBD</color>
+    <color name="btn_selected">#CDDC39</color>
 </resources>
