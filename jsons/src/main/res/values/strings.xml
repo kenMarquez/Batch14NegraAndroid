@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">JSONS</string>
+    <string name="json1">
+     {
+    \"red\":\"#f00\",
+    \"green\":\"#0f0\",
+    \"blue\":\"#00f\",
+    \"cyan\":\"#0ff\",
+    \"magenta\":\"#f0f\",
+    \"yellow\":\"#ff0\",
+    \"black\":\"#000\"
+    }
+    </string>
+
+    <string name="json2">
+
+            {
+    \"colorsArray\":[{
+    \"red\":\"#f00\",
+    \"green\":\"#0f0\",
+    \"blue\":\"#00f\",
+    \"cyan\":\"#0ff\",
+    \"magenta\":\"#f0f\",
+    \"yellow\":\"#ff0\",
+    \"black\":\"#000\"
+    }
+    ]
+    }
+    </string>
+
+    <string name="json3">
+
+            {
+    \"colorsArray\":[{
+    \"colorName\":\"red\",
+    \"hexValue\":\"#f00\"
+    },
+    {
+    \"colorName\":\"green\",
+    \"hexValue\":\"#0f0\"
+    },
+    {
+    \"colorName\":\"blue\",
+    \"hexValue\":\"#00f\"
+    },
+    {
+    \"colorName\":\"cyan\",
+    \"hexValue\":\"#0ff\"
+    },
+    {
+    \"colorName\":\"magenta\",
+    \"hexValue\":\"#f0f\"
+    },
+    {
+    \"colorName\":\"yellow\",
+    \"hexValue\":\"#ff0\"
+    },
+    {
+    \"colorName\":\"black\",
+    \"hexValue\":\"#000\"
+    }
+    ]
+    }
+
+    </string>
+
+
+    <string name="json4">
+     {
+     \"firstName\": \"John\",
+     \"lastName\": \"Smith\",
+     \"age\": 25,
+     \"address\":
+     {
+         \"streetAddress\": \"21 2nd Street\",
+         \"city\": \"New York\",
+         \"state\": \"NY\",
+         \"postalCode\": \"10021\"
+     },
+     \"phoneNumber\":
+     [
+         {
+           \"type\": \"home\",
+           \"number\": \"212 555-1234\"
+         },
+         {
+           \"type\": \"fax\",
+           \"number\": \"646 555-4567\"
+         }
+     ]
+ }
+    </string>
+
+
+</resources>
