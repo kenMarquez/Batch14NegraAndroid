@@ -3,6 +3,7 @@
     package="com.devf.quizapp">
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -10,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppThemeCustom">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.activities.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PlayActivity"></activity>
+        <activity android:name=".ui.activities.PlayActivity" />
+        <activity android:name=".ui.activities.HistorialActivity"></activity>
     </application>
 
 </manifest>

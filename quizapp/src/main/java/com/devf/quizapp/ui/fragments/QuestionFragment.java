@@ -1,4 +1,4 @@
-package com.devf.quizapp.fragments;
+package com.devf.quizapp.ui.fragments;
 
 
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.devf.quizapp;
+package com.devf.quizapp.utils;
 
 /**
  * Created by Ken on 27/04/17.

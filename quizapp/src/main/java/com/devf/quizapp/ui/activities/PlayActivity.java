@@ -1,13 +1,15 @@
-package com.devf.quizapp;
+package com.devf.quizapp.ui.activities;
 
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.devf.quizapp.fragments.QuestionFragment;
+import com.devf.quizapp.ui.fragments.ScoreFragment;
+import com.devf.quizapp.utils.Constants;
+import com.devf.quizapp.R;
+
 import com.devf.quizapp.models.Pregunta;
 
 import java.util.ArrayList;
@@ -16,6 +18,8 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+
+import com.devf.quizapp.ui.fragments.QuestionFragment;
 
 public class PlayActivity extends AppCompatActivity {
 
@@ -98,11 +102,15 @@ public class PlayActivity extends AppCompatActivity {
                 changeFragment(QuestionFragment.newInstance(mListPreguntas.get(++mQuestionPosition).getTitle()));
             } else {
                 Toast.makeText(PlayActivity.this, "Tu puntaje es: " + mContador, Toast.LENGTH_LONG).show();
+                FragmentManager fragmentManager = getSupportFragmentManager();
+                fragmentManager.beginTransaction()
+                        .setCustomAnimations(R.anim.slide_rigth_enter, R.anim.slide_left_exit)
+                        .replace(R.id.frame_layout, ScoreFragment.newInstance(mUserName, mContador))
+                        .commit();
             }
         }
 
     }
-
 
 
     /**

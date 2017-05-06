@@ -1,4 +1,4 @@
-package com.devf.persistenciadatos;
+package com.devf.persistenciadatos.util;
 
 /**
  * Created by Ken on 04/05/17.

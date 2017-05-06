@@ -1,4 +1,4 @@
-package com.devf.persistenciadatos;
+package com.devf.persistenciadatos.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
+import com.devf.persistenciadatos.R;
 import com.devf.persistenciadatos.models.Usuario;
 
 import io.realm.Realm;
@@ -24,18 +25,7 @@ public class RealmActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_realm);
 
-        /**
-         * Le indico a Realm sobre que contexto va a trabajar
-         */
-        Realm.init(RealmActivity.this);
 
-        /**
-         * Inicio la configuración que va a tener realm
-         */
-        RealmConfiguration config = new RealmConfiguration.Builder()
-                .build();
-
-        Realm.setDefaultConfiguration(config);
 
         tvData = (TextView) findViewById(R.id.tv_data);
         findViewById(R.id.fab).setOnClickListener(view -> guardar());

@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     card_view:cardCornerRadius="4dp"
     card_view:cardElevation="6dp"
-    tools:context="com.devf.quizapp.fragments.QuestionFragment">
+    tools:context=".ui.fragments.QuestionFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
