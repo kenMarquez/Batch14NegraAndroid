@@ -14,10 +14,10 @@
 
     <Button
         android:id="@+id/btn_get_data"
-        android:text="Obtener"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"
+        android:text="Obtener" />
 
 
     <android.support.design.widget.FloatingActionButton
@@ -30,3 +30,7 @@
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
 </RelativeLayout>
+
+
+
+

@@ -43,21 +43,15 @@ public class RealmActivity extends AppCompatActivity {
         findViewById(R.id.btn_get_data).setOnClickListener(v -> obtenerData());
 
 
-        findViewById(R.id.btn_get_data).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                obtenerData();
-            }
-        });
-
-
     }
 
     private void obtenerData() {
-        Realm realm = Realm.getDefaultInstance();
+        updateUser();
 
-        RealmQuery<Usuario> query = realm.where(Usuario.class);
-        RealmResults<Usuario> results = query.findAll();
+        Realm realm = Realm.getDefaultInstance();
+        RealmResults<Usuario> results = realm.where(Usuario.class)
+                .findAll();
+
         tvData.setText("");
         for (Usuario usuario : results) {
             tvData.append(usuario.toString() + "\n");
@@ -73,8 +67,8 @@ public class RealmActivity extends AppCompatActivity {
 
         realm.beginTransaction();
 
-
-        Usuario usuario = realm.createObject(Usuario.class, realm.where(Usuario.class).count() + 1);
+        long count = realm.where(Usuario.class).count();
+        Usuario usuario = realm.createObject(Usuario.class, count + 1);
         usuario.setEdad(35);
         usuario.setEmail("emai@algo.com");
         usuario.setNombre("Chuchito " + id);
@@ -86,6 +80,24 @@ public class RealmActivity extends AppCompatActivity {
         Log.e("myLog", "Guardo un usuario");
 
     }
+
+    public void updateUser() {
+        // Obtain a Realm instance
+        Realm realm = Realm.getDefaultInstance();
+
+        Usuario usuario = new Usuario();
+        usuario.setEdad(21);
+        usuario.setEmail("emai@algo.com");
+        usuario.setNombre("El Erik!! SHi shi ");
+        usuario.setTelefono(55443322);
+        usuario.setNombreUsuario("Yisus");
+        usuario.setId(4);
+
+        realm.beginTransaction();
+        realm.copyToRealmOrUpdate(usuario);
+        realm.commitTransaction();
+    }
+
 
 }
 
