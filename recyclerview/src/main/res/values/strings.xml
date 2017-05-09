@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="text_description_dummy">
+        Suspendisse auctor tempus ex nec ultrices. Sed ut metus in
+        magna pulvinar sagittis. Donec tempus accumsan fringilla.
+        Nullam eleifend, mi nec porta tristique, libero dui feugiat
+        ligula, a blandit sem risus eget est. Nulla facilisi. Mauris
+        sodales, ex et luctus interdum, libero risus vehicula nibh,
+        quis eleifend orci nisl eget nunc. Vestibulum sodales feugiat
+        enim, ut pharetra metus. Duis nec interdum urna, nec ullamcorper ex.
+        Nunc laoreet in lorem et tempus. Pellentesque ligula nisi, ornare maximus
+        varius eget, ultricies sed elit. Sed nisi arcu, sollicitudin vel congue ut,
+        varius vel erat. Pellentesque sed mollis ante, quis convallis lorem. Curabitur
+        porttitor malesuada velit id imperdiet. In porta, leo sit amet consectetur
+        finibus, turpis est lacinia nulla, sit amet vulputate metus diam sit amet
+        quam. Maecenas commodo, justo tincidunt tincidunt fermentum, elit urna
+    </string>
+</resources>
