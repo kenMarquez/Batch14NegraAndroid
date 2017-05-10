@@ -14,6 +14,8 @@
       <module fileurl="file://$PROJECT_DIR$/projectviews/projectviews.iml" filepath="$PROJECT_DIR$/projectviews/projectviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/quizapp/quizapp.iml" filepath="$PROJECT_DIR$/quizapp/quizapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/recyclerview/recyclerview.iml" filepath="$PROJECT_DIR$/recyclerview/recyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/retrofit/retrofit.iml" filepath="$PROJECT_DIR$/retrofit/retrofit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/retrofit2/retrofit2.iml" filepath="$PROJECT_DIR$/retrofit2/retrofit2.iml" />
       <module fileurl="file://$PROJECT_DIR$/runtimepermission/runtimepermission.iml" filepath="$PROJECT_DIR$/runtimepermission/runtimepermission.iml" />
       <module fileurl="file://$PROJECT_DIR$/toolbar/toolbar.iml" filepath="$PROJECT_DIR$/toolbar/toolbar.iml" />
     </modules>

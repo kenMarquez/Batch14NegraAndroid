@@ -32,10 +32,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void poblarPromos() {
+
         mPromos.add(new Promocion("Audifonos", 40, getString(R.string.text_description_dummy), ""));
-        mPromos.add(new Promocion("Tv 50 LED Smart TV", 10, getString(R.string.text_description_dummy), ""));
-        mPromos.add(new Promocion("Bocinas 5000 WATS", 20, getString(R.string.text_description_dummy), ""));
-        mPromos.add(new Promocion("Mac Book pro 13 ", 90, getString(R.string.text_description_dummy), ""));
+        mPromos.add(new Promocion("Tv 50 LED Smart TV", 10, getString(R.string.text_description_dummy), "https://upload.wikimedia.org/wikipedia/commons/3/33/Alibaba-512X512-For_IOS.png"));
+        mPromos.add(new Promocion("Bocinas 5000 WATS", 20, getString(R.string.text_description_dummy), "http://imagenpng.com/wp-content/uploads/2015/03/Logotipo-mercadolibre-png-6.png"));
+        mPromos.add(new Promocion("Mac Book pro 13 ", 90, getString(R.string.text_description_dummy), "http://shoppingcenter.nuevosur.com/wp-content/uploads/2014/09/sanborns.png"));
         mPromos.add(new Promocion("Dron ", 40, getString(R.string.text_description_dummy), ""));
         mPromos.add(new Promocion("Iphone 10 plus", 1, getString(R.string.text_description_dummy), ""));
         mPromos.add(new Promocion("Pizza", 15, getString(R.string.text_description_dummy), ""));
@@ -51,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
 
         //Adaptador de los elementos
         recyclerView.setAdapter(promoAdapter);
+
+        recyclerView.setHasFixedSize(true);
 
 
     }

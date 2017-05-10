@@ -19,6 +19,8 @@
             <option value="$PROJECT_DIR$/projectviews" />
             <option value="$PROJECT_DIR$/quizapp" />
             <option value="$PROJECT_DIR$/recyclerview" />
+            <option value="$PROJECT_DIR$/retrofit" />
+            <option value="$PROJECT_DIR$/retrofit2" />
             <option value="$PROJECT_DIR$/runtimepermission" />
             <option value="$PROJECT_DIR$/toolbar" />
           </set>
