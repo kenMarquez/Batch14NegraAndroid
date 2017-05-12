@@ -4,37 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.devf.spotifyplayer.MainActivity">
+    tools:context="com.devf.spotifyplayer.ui.MainActivity">
 
     <EditText
         android:id="@+id/input_track"
-        android:layout_width="265dp"
-        android:layout_height="73dp"
+        android:layout_width="224dp"
+        android:layout_height="51dp"
         android:layout_marginBottom="8dp"
+        android:layout_marginEnd="7dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="7dp"
+        android:layout_marginStart="8dp"
+        android:textSize="15sp"
         android:layout_marginTop="8dp"
         android:hint="Escribe la canción a buscar"
-        app:layout_constraintBottom_toTopOf="@+id/btn_search"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.676"
-        tools:layout_editor_absoluteX="3dp" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btn_search"
         android:layout_width="wrap_content"
+        android:textSize="15sp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/colorAccent"
         android:text="Buscar"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        app:layout_constraintBaseline_toBaselineOf="@+id/input_track"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintLeft_toRightOf="@+id/input_track"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_tracks"
+        android:layout_width="353dp"
+        android:layout_height="397dp"
+
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/input_track"
+        app:layout_constraintVertical_bias="0.045"
+        tools:layout_editor_absoluteX="3dp"></android.support.v7.widget.RecyclerView>
 
 </android.support.constraint.ConstraintLayout>

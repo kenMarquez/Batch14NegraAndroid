@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/recyclerview/recyclerview.iml" filepath="$PROJECT_DIR$/recyclerview/recyclerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/retrofit/retrofit.iml" filepath="$PROJECT_DIR$/retrofit/retrofit.iml" />
       <module fileurl="file://$PROJECT_DIR$/retrofit2/retrofit2.iml" filepath="$PROJECT_DIR$/retrofit2/retrofit2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/retrofitpost/retrofitpost.iml" filepath="$PROJECT_DIR$/retrofitpost/retrofitpost.iml" />
       <module fileurl="file://$PROJECT_DIR$/runtimepermission/runtimepermission.iml" filepath="$PROJECT_DIR$/runtimepermission/runtimepermission.iml" />
       <module fileurl="file://$PROJECT_DIR$/spotifyplayer/spotifyplayer.iml" filepath="$PROJECT_DIR$/spotifyplayer/spotifyplayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/toolbar/toolbar.iml" filepath="$PROJECT_DIR$/toolbar/toolbar.iml" />
