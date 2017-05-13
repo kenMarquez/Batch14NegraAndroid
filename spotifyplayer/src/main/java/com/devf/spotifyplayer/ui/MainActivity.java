@@ -4,6 +4,7 @@ import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -64,14 +65,16 @@ public class MainActivity extends AppCompatActivity {
                 new LinearLayoutManager(MainActivity.this
                         , LinearLayoutManager.VERTICAL, false);
 
+        GridLayoutManager layoutManager1 = new GridLayoutManager(MainActivity.this, 3);
+
         /**
          * Separador entre los elementos del recyclerview
          */
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(rvTracks.getContext(),
-                layoutManager.getOrientation());
+                layoutManager1.getOrientation());
 
         rvTracks.addItemDecoration(dividerItemDecoration);
-        rvTracks.setLayoutManager(layoutManager);
+        rvTracks.setLayoutManager(layoutManager1);
         /**
          * Como mi lista no va a cambiar dinamicamente
          * Optimiza el recyclerview
