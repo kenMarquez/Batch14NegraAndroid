@@ -1,1 +1,1 @@
-include ':app', ':claseobjetos', ':conceptosandroid', ':projectviews', ':pesostodolares', ':intents', ':runtimepermission', ':fragments', ':quizapp', ':jsons', ':persistenciadatos', ':toolbar', ':recyclerview', ':retrofit', ':retrofit2', ':spotifyplayer', ':retrofitpost'
+include ':app', ':claseobjetos', ':conceptosandroid', ':projectviews', ':pesostodolares', ':intents', ':runtimepermission', ':fragments', ':quizapp', ':jsons', ':persistenciadatos', ':toolbar', ':recyclerview', ':retrofit', ':retrofit2', ':spotifyplayer', ':retrofitpost', ':firebaseexample'

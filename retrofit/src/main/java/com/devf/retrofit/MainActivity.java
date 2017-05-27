@@ -92,6 +92,8 @@ public class MainActivity extends AppCompatActivity {
         @GET("/users/kenMarquez")
         public Call<ResponseBody> getUserInfo();
 
+
+
         /**
          * Nombre del metodo
          * uri del recurso que queremos obtener

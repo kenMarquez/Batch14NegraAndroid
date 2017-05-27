@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        post2();
+        post1();
 
 
     }
@@ -44,10 +44,11 @@ public class MainActivity extends AppCompatActivity {
     private void post1() {
         ApiService service = ServiceGenerator.createService(ApiService.class);
 
-        service.createBook("puto", "puto", "puto", "puto", 2).enqueue(new Callback<ResponseBody>() {
+        service.createBook("Nombre", "apellido", "mexicana", "biogrfica", 2).enqueue(new Callback<ResponseBody>() {
             @Override
             public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
                 Log.e("myLog", response.code() + "");
+
             }
 
             @Override

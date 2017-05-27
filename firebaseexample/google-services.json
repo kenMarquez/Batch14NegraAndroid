@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "55825998222",
+    "firebase_url": "https://androidinights-2fb5b.firebaseio.com",
+    "project_id": "androidinights-2fb5b",
+    "storage_bucket": "androidinights-2fb5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55825998222:android:2d2f55a9e3e3ff16",
+        "android_client_info": {
+          "package_name": "com.ken.fcmandroidinights"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55825998222-a8prlk6rg57vlcm1ijoipm6v22pe5kr6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ken.fcmandroidinights",
+            "certificate_hash": "e6de72603ae213f65d289b243e7c662e48300463"
+          }
+        },
+        {
+          "client_id": "55825998222-5jc7gfdau0b55jbsdjqhkjo2u39aa37b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGAYUVjt3u-rjL8--5NKPmjRTdpWbATOQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55825998222-5jc7gfdau0b55jbsdjqhkjo2u39aa37b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55825998222:android:e3c836fda1cebefb",
+        "android_client_info": {
+          "package_name": "ohanahome.mx.win"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55825998222-bvcp3espl10kpcufu5aadk0f712fb1fa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ohanahome.mx.win",
+            "certificate_hash": "e6de72603ae213f65d289b243e7c662e48300463"
+          }
+        },
+        {
+          "client_id": "55825998222-5jc7gfdau0b55jbsdjqhkjo2u39aa37b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGAYUVjt3u-rjL8--5NKPmjRTdpWbATOQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55825998222-5jc7gfdau0b55jbsdjqhkjo2u39aa37b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55825998222:android:fbd78a97eae4efed",
+        "android_client_info": {
+          "package_name": "mx.ohanahome.firebaseexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55825998222-5jc7gfdau0b55jbsdjqhkjo2u39aa37b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGAYUVjt3u-rjL8--5NKPmjRTdpWbATOQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
